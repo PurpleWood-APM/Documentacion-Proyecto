@@ -13,6 +13,11 @@
 ## Productos Seleccionados
 A continuación se presenta cada uno de los productos seleccionados, incluyendo una imagen del modelo realizado, el plano del mismo, materiales, acabados, función, y proceso de manufactura. Los planos y archivos de modelado se pueden encontrar en la carpeta **XXXXX**
 
+En cuanto a los materiales decidimos seleccionar materia prima según dos criterios, primero la facilidad con la que podría ser transformada en las materias primas y segundo la disponibilidad en el mercado 
+
+Se escoge tomar como insumos tableros de 122 x 244 cm en distintos calibres 
+
+
 1. **Organizador de escritorio estilo mesa**
 
 Modelo:
