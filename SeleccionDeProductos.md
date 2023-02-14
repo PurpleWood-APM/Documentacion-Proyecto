@@ -50,7 +50,7 @@ Plano:
 <img width="600" alt="organizador" src="img-SeleccionDeProductos/dummy.jpeg">
 
 Materiales:
-* Triplex Pino Fenolico espesor 9mm y 30mm
+* Triplex Pino Fenolico espesor 9mm y 25mm
 
 Acabados:
 * asdasd
