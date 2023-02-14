@@ -34,7 +34,7 @@ Materiales:
 Acabados:
 * asdasd
 
-Función:
+Función: Agujeros no pasantes de distintos tamaños que sirven como portaobjetos, para organizar utencilios personales o de oficina como: lápices, celular, vasos, clips, entre otros.
 
 Proceso de Manufactura:
 **Acá van los diagramas de flujo**
@@ -55,7 +55,7 @@ Materiales:
 Acabados:
 * asdasd
 
-Función:
+Función: Colocar objetos dentro de la cavidad principal y poder colgar otros objetos gracias a los cilindros sobresalientes.
 
 Proceso de Manufactura:
 **Acá van los diagramas de flujo**
@@ -76,7 +76,7 @@ Materiales:
 Acabados:
 * asdasd
 
-Función:
+Función: Cama para que una mascota (gato o perro pequeño) duerma.
 
 Proceso de Manufactura:
 **Acá van los diagramas de flujo**
