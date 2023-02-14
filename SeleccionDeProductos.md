@@ -29,7 +29,7 @@ Plano:
 <img width="600" alt="organizador" src="img-SeleccionDeProductos/dummy.jpeg">
 
 Materiales:
-* asdasd
+* Triplex Pino Fenolico espesor de 15mm
 
 Acabados:
 * asdasd
@@ -50,7 +50,7 @@ Plano:
 <img width="600" alt="organizador" src="img-SeleccionDeProductos/dummy.jpeg">
 
 Materiales:
-* asdasd
+* Triplex Pino Fenolico espesor 9mm
 
 Acabados:
 * asdasd
@@ -71,7 +71,7 @@ Plano:
 <img width="600" alt="organizador" src="img-SeleccionDeProductos/dummy.jpeg">
 
 Materiales:
-* asdasd
+* aTriplex Pino Fenolico espesor de 12 mm
 
 Acabados:
 * asdasd
