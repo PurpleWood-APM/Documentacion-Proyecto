@@ -37,7 +37,8 @@ Acabados:
 Función: Agujeros no pasantes de distintos tamaños que sirven como portaobjetos, para organizar utencilios personales o de oficina como: lápices, celular, vasos, clips, entre otros.
 
 Proceso de Manufactura:
-**Acá van los diagramas de flujo**
+
+<img width="600" alt="diagramaFlujoMesa" src="esquemas/diagramaFlujoMesa">
 
 2. **Repisa**
 
