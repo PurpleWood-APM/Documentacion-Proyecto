@@ -34,12 +34,20 @@ Materiales:
 
 Acabados:
 Se desea tener un buen acabado al tratarse de un elemento de hogar y oficina, por ello se planean procesos de:
-*Resanado.
-*Lijado.
-*Barnizado.
-A fin de lograr un buen acabado
+* Resanado.
+* Lijado.
+* Barnizado.
+
+Esto con el fin de lograr un buen acabado
 
 Función: Agujeros no pasantes de distintos tamaños que sirven como portaobjetos, para organizar utencilios personales o de oficina como: lápices, celular, vasos, clips, entre otros.
+
+Despiece 
+
+| Codigo | Pieza                     | Cantidad | Descripción                                    | Ancho | Alto  | Largo |
+|--------|---------------------------|----------|------------------------------------------------|-------|-------|-------|
+| CG1    | Tabla  ranura asimétrica  | 1        | Pieza Principal que hace de base para la casa  | 12mm  | 700mm | 300mm |
+| CG2    | Tabla ranura simétrica    | 2        | Conforman las paredes del mueble               | 12mm  | 700mm | 300mm |
 
 Proceso de Manufactura:
 
@@ -60,12 +68,21 @@ Materiales:
 
 Acabados:
 Se desea tener un buen acabado al tratarse de un elemento decorativo para el  hogar, por ello se planean procesos de:
-*Resanado.
-*Lijado.
-*Barnizado.
-A fin de lograr un buen acabado
+* Resanado.
+* Lijado.
+* Barnizado.
+Esto con el  fin de lograr un buen acabado.
 
-Función: Colocar objetos dentro de la cavidad principal.
+Función: Sostener objetos dentro de la cavidad principal.
+
+Despiece:
+
+| Codigo | Pieza              | Cantidad | Descripción                                     | Ancho | Alto | Largo |
+|--------|--------------------|----------|-------------------------------------------------|-------|------|-------|
+| RL1    | Frente con Botones | 1        | Pieza principal con las extrusiones decorativas | 25mm  | 80mm | 480mm |
+| RL2    | Trasera            | 1        | Pieza que dara a la pared y servira de apoyo    | 12mm  | 80mm | 480mm |
+| RL3    | Fondo              | 1        | Es el fondo de la repisa                        | 12mm  | 62mm | 480mm |
+| RL4    | Lateral            | 2        | Conforman los laterales                         | 12mm  | 71mm | 62mm  |
 
 Proceso de Manufactura:
 **Acá van los diagramas de flujo**
@@ -85,13 +102,21 @@ Materiales:
 
 Acabados:
 Se desea tener un buen acabado al tratarse de un elemento de hogar, por ello se planean procesos de:
-*Resanado.
-*Lijado.
-*Barnizado.
+* Resanado.
+* Lijado.
+* Barnizado.
 
 Adicionalmente si bien no ha sido modelado se planea la inclusión de una superficie "rascadero" y un cojin en el producto.
 
 Función: Cama para que una mascota (gato o perro pequeño) duerma.
+
+Despiece:
+A continuación se presentan una tabla con las piezas cantidades y medidas:
+
+| Codigo | Pieza          | Descripción                                   | Ancho | Alto  | Largo |
+|--------|----------------|-----------------------------------------------|-------|-------|-------|
+| MO1    | Tabla ranurada | Pieza principal con las ranuras organizadoras | 15mm  | 135mm | 500mm |
+| MO2    | Patas          | Pieza que serviran de apoyo                   | 15mm  | 115mm | 60mm  |
 
 Proceso de Manufactura:
 **Acá van los diagramas de flujo**
