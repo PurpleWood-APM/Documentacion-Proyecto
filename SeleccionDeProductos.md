@@ -49,9 +49,27 @@ Despiece
 | CG1    | Tabla  ranura asimétrica  | 1        | Pieza Principal que hace de base para la casa  | 12mm  | 700mm | 300mm |
 | CG2    | Tabla ranura simétrica    | 2        | Conforman las paredes del mueble               | 12mm  | 700mm | 300mm |
 
+Para los codigos de las piezas se tiene la siguiente nomenclatura, las dos primeras letras indican el producto al que pertenece:
+* MO: Mesa Organizadora
+* CG: Casa Gato.
+* RL: Repisa Lego
+
+Posteriormente el numero indica el numero de la pieza.
+
 Proceso de Manufactura:
 
 <img width="600" alt="diagramaFlujoMesa" src="esquemas/diagramaFlujoMesa">
+
+A continuación listamos los pasos definidos:
+* Se inicia el proceso con un tablero de 1.22 x 2.44m x 15 mm En este se fresan primero todas las ranuras y luego se hacen cortes para separar cada una de las piezas. Se plantea un lote de entre  14 a 18 unidades.  Se da un espacio para corte de 2mm (material consumido por la sierra, sin embargo esta cantidad puede ser modificada sin problema alguno 
+* Para las tablas se calcula su longitud antes del biselado, corresponde a 58.8 x 115 (la precisión en este caso no importa, por lo que se trabajara con 60 x 115. Sihuiendo un esquema de corte similar al anterior (corte en arreglo rectangular) Se lograria un lote de 380 piezas, eso significaría que suponiendo un lote de tablas principales de 18 unidades se necesitaría una proporción de 10:1. Esto  puede implicar almacenar piezas lo cual no es deseado, por ello se podrían considerar tableros de piezas mixtas  con este u otros productos. 
+* Las tablas de las patas deben ahora ser biseladas para obtener la forma de trapecio. 
+* Una vez biseladas todas la tablas pueden pasar a un proceso de resanado, lijado y barnizado. 
+* Una vez barnizadas todas las piezas se puede proceder al ensamble. 
+* Por último se empaqueta 
+
+
+
 
 2. **Repisa**
 
@@ -87,6 +105,13 @@ Despiece:
 Proceso de Manufactura:
 **Acá van los diagramas de flujo**
 
+A continuación listamos los procesos definidos:
+* Primero se hace el fresado de los cilindros de las piezas RL1 (frente) y luego se secciona, dado que esta pieza se hace a partir de un tablero de 25 mm no se puede manufacturar en conjunto con otras piezas. Se puede obtener un lote de 70 piezas
+* Las demas piezas pueden obtenerse en simultaneo de un tablero dado que las demas comparten el mismo calibre de 12 mm.
+* Una vez cortadas todas las piezas se hace el resanado,lijado de las piezas.
+* Posteriormente se hace el armado de la repisa y se deja reposar el tiempo adecuado.
+* Posteriormente se hace un barnizado.
+* Por ultimo se empaqueta
 3. Casa para gato
 
 Modelo:
@@ -121,4 +146,10 @@ A continuación se presentan una tabla con las piezas cantidades y medidas:
 Proceso de Manufactura:
 **Acá van los diagramas de flujo**
 
-## Preguntas que surgieron en el proceso
+A continuación listamos los pasos del proceso de producción:
+* Primero se planea el fresado de todas las ranuras de un lote en un mismo tablero, luego al cortar se logra obtener un lote de 12 tablas ya ranuradas, teniendo en cuenta que primero se harían todas las ranuras y que estas se pueden programar, po cada lote se podrían sacar las piezas en la proporción adecuada para el armado del producto final, dado que  se puede tener una proporción 2:1 en los tipos de tabla. 
+* Una vez cortadas las tablas se procede a su resanado, lijado y barnizado. 
+* Luego se separan el lote segun la distribución de ranuras.
+* Segun el tipo de pieza se pegan los elementos correspondientes: Topes, "rascador", cojin.
+* Por ultimo se empacan las piezas.
+
