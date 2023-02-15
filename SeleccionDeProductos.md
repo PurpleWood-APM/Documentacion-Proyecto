@@ -11,8 +11,9 @@
 
 
 ## Productos Seleccionados
-A continuación se presenta cada uno de los productos seleccionados, incluyendo una imagen del modelo realizado, el plano del mismo, materiales, acabados, función, y proceso de manufactura. Los planos y archivos de modelado se pueden encontrar en la carpeta **XXXXX**
+A continuación se presenta cada uno de los productos seleccionados, incluyendo una imagen del modelo realizado, las dimensiones del mismo, materiales, acabados, función, y proceso de manufactura. Los archivos de modelado se pueden encontrar en la carpeta **XXXXX**
 
+## Selección de Materiales
 En cuanto a los materiales decidimos seleccionar materia prima según dos criterios, primero la facilidad con la que podría ser transformada en las materias primas y segundo la disponibilidad en el mercado 
 
 Se escoge tomar como insumos tableros de 122 x 244 cm en distintos calibres, se especifica en cada producto el material a usar. 
@@ -32,7 +33,11 @@ Materiales:
 * Triplex Pino Fenolico espesor de 15mm
 
 Acabados:
-* asdasd
+Se desea tener un buen acabado al tratarse de un elemento de hogar y oficina, por ello se planean procesos de:
+*Resanado.
+*Lijado.
+*Barnizado.
+A fin de lograr un buen acabado
 
 Función: Agujeros no pasantes de distintos tamaños que sirven como portaobjetos, para organizar utencilios personales o de oficina como: lápices, celular, vasos, clips, entre otros.
 
@@ -54,9 +59,13 @@ Materiales:
 * Triplex Pino Fenolico espesor 9mm y 25mm
 
 Acabados:
-* asdasd
+Se desea tener un buen acabado al tratarse de un elemento decorativo para el  hogar, por ello se planean procesos de:
+*Resanado.
+*Lijado.
+*Barnizado.
+A fin de lograr un buen acabado
 
-Función: Colocar objetos dentro de la cavidad principal y poder colgar otros objetos gracias a los cilindros sobresalientes.
+Función: Colocar objetos dentro de la cavidad principal.
 
 Proceso de Manufactura:
 **Acá van los diagramas de flujo**
@@ -75,9 +84,16 @@ Materiales:
 * aTriplex Pino Fenolico espesor de 12 mm
 
 Acabados:
-* asdasd
+Se desea tener un buen acabado al tratarse de un elemento de hogar, por ello se planean procesos de:
+*Resanado.
+*Lijado.
+*Barnizado.
+
+Adicionalmente si bien no ha sido modelado se planea la inclusión de una superficie "rascadero" y un cojin en el producto.
 
 Función: Cama para que una mascota (gato o perro pequeño) duerma.
 
 Proceso de Manufactura:
 **Acá van los diagramas de flujo**
+
+## Preguntas que surgieron en el proceso
