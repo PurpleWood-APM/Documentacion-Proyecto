@@ -1,5 +1,8 @@
 # Guía para asignación de un dominio a la página web del proyecto
 
+En esta guía se presenta un paso a paso para desplegar una página web en un dominio propio usando la herramienta de continuous delivery **Netlify**, la cual tiene una versión gratuita que permite la actualización automática de la página cada que hay un commit en el repositorio de github.
+
+
 ### Contenidos
   1. [Prerrequisitos](#prerrequisitos)
   1. [Compra del dominio](#compra-del-dominio)
@@ -27,6 +30,23 @@ Para realizar la compra puedes usar una tarjeta de crédito recargable, como lo 
 
 ## Despliegue de la página web en Netlify
 
+1. Inicia sesión en Netlify, verás la siguiente página de inicio, donde debes seleccionar **Import from git**:
+
+
+    <img width="600"  src="img-AsignacionDominio/despliegue/1inicio.png">
+
+1. Selecciona el proveedor donde tienes alojado el código de la página, en este caso github
+
+    <img width="600"  src="img-AsignacionDominio/despliegue/2import.png">
+
+1. Te aparecerá una lista de repositorios a elegir. Si tu proyecto está alojado en una organización de github, utiliza la flecha al lado del nombre de usuario para seleccionar la organización. 
+Selecciona el repositorio donde está la página a desplegar
+
+    <img width="600"  src="img-AsignacionDominio/despliegue/3pick.png">
+
+1. Después de un momento te aparecerá tu página desplegada con un link por defecto. En la siguiente sección de la guía podrás asignar el dominio que compraste para acceder a la página desplegada
+
+    <img width="600"  src="img-AsignacionDominio/despliegue/4done.png">
 
 ## Asignación del dominio en Netlify
 
