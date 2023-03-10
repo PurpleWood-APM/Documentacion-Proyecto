@@ -34,7 +34,9 @@ Se decide tomar como insumo principal tableros de madera de 122 x 244 cm en dist
     <img width="600" alt="organizador" src="img-SeleccionDeProductos/cotasMesa.png">
 
 - Materiales:
-    * Triplex Pino Fenolico 122cm x 244cm espesor de 15mm
+    * Triplex Pino Fenolico 122cm x 244cm espesor de 15mm.
+    * Barniz.
+    * Pegante o adhesivo.
 
 - Acabados:
     Se desea tener un buen acabado al tratarse de un elemento de hogar y oficina, por ello se planean procesos de:
@@ -76,7 +78,7 @@ Se decide tomar como insumo principal tableros de madera de 122 x 244 cm en dist
 
 
 
-2. **Repisa**
+2. **Repisa Bloque**
 
 - Modelo:
  
@@ -87,7 +89,9 @@ Se decide tomar como insumo principal tableros de madera de 122 x 244 cm en dist
     <img width="600" alt="organizador" src="img-SeleccionDeProductos/cotasRepisa.png">
 
 - Materiales:
-    * Triplex Pino Fenolico 122cm x 244cm espesor 9mm y 25mm
+    * Triplex Pino Fenolico 122cm x 244cm espesor 9mm y 25mm.
+    * Barniz.
+    * Pegante.
 
 - Acabados:
     Se desea tener un buen acabado al tratarse de un elemento decorativo para el  hogar, por ello se planean procesos de:
@@ -116,7 +120,7 @@ Se decide tomar como insumo principal tableros de madera de 122 x 244 cm en dist
     * Las demas piezas pueden obtenerse en simultaneo de un tablero dado que las demás comparten el mismo calibre de 12 mm.
     * Una vez cortadas todas las piezas se hace el resanado, lijado y barnizado de las piezas.
     * Por ultimo se empaqueta
-3. Casa para gato
+3. **Casa para gato**
 
 - Modelo:
  
@@ -127,7 +131,13 @@ Se decide tomar como insumo principal tableros de madera de 122 x 244 cm en dist
     <img width="600" alt="organizador" src="img-SeleccionDeProductos/cotasCasa.png">
 
 - Materiales:
-    * aTriplex Pino Fenolico espesor de 12 mm
+    * aTriplex Pino Fenolico espesor de 12 mm.
+    * Barniz.
+    * Pegante o adhesivo.
+    * Tela rascadero.
+    * Velcro.
+    * Cojin.
+    * Tapones de goma.
 
 - Acabados:
     Se desea tener un buen acabado al tratarse de un elemento de hogar, por ello se planean procesos de:
@@ -157,4 +167,15 @@ Se decide tomar como insumo principal tableros de madera de 122 x 244 cm en dist
     * Luego se separa el lote segun la distribución de ranuras.
     * Segun el tipo de pieza se pegan los elementos correspondientes: Topes, "rascador", cojin.
     * Por ultimo se empacan las piezas.
+
+4. Otras consideraciones.
+- Otros Materiales
+En esta sección incluimos otros materiales asociados al proceso productivo pero que no se relacionan al producto, principalmente se considera insumos para empaques o demas elementos que acompañan el producto:
+
+ Por el momento se consideran:
+    * Cajas.
+    * Plasticos de embalaje.
+    * Publicidad de los productos.
+    * Manuales.
+    
 
