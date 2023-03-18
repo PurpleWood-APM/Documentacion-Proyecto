@@ -51,10 +51,11 @@ Se decide tomar como insumo principal tableros de madera de 122 x 244 cm en dist
 
 - Despiece: 
 
-    | Código | Pieza                     | Cantidad | Descripción                                    | Ancho | Alto  | Largo |
-    |--------|---------------------------|----------|------------------------------------------------|-------|-------|-------|
-    | CG1    | Tabla ranura asimétrica   | 1        | Pieza principal que hace de base para la casa  | 12mm  | 700mm | 300mm |
-    | CG2    | Tabla ranura simétrica    | 2        | Conforman las paredes del mueble               | 12mm  | 700mm | 300mm |
+    | Código | Pieza          | Descripción                                   | Ancho | Alto  | Largo |
+    |--------|----------------|-----------------------------------------------|-------|-------|-------|
+    | MO1    | Tabla ranurada | Pieza principal con las ranuras organizadoras | 15mm  | 135mm | 500mm |
+    | MO2    | Patas          | Pieza que servirán de apoyo                   | 15mm  | 115mm | 60mm  |
+
 
     Para los codigos de las piezas se propone la siguiente nomenclatura, donde las dos primeras letras indican el producto al que pertenece como se muestra a continuación:
     * MO: Mesa Organizadora
@@ -151,11 +152,13 @@ Se decide tomar como insumo principal tableros de madera de 122 x 244 cm en dist
 
 - Despiece:
     A continuación se presentan una tabla con las piezas cantidades y medidas:
+    
+    | Código | Pieza                     | Cantidad | Descripción                                    | Ancho | Alto  | Largo |
+    |--------|---------------------------|----------|------------------------------------------------|-------|-------|-------|
+    | CG1    | Tabla ranura asimétrica   | 1        | Pieza principal que hace de base para la casa  | 12mm  | 700mm | 300mm |
+    | CG2    | Tabla ranura simétrica    | 2        | Conforman las paredes del mueble               | 12mm  | 700mm | 300mm |
 
-    | Código | Pieza          | Descripción                                   | Ancho | Alto  | Largo |
-    |--------|----------------|-----------------------------------------------|-------|-------|-------|
-    | MO1    | Tabla ranurada | Pieza principal con las ranuras organizadoras | 15mm  | 135mm | 500mm |
-    | MO2    | Patas          | Pieza que servirán de apoyo                   | 15mm  | 115mm | 60mm  |
+
 
 - Proceso de Manufactura:
 
