@@ -1,0 +1,55 @@
+# Planeación del proyecto
+
+Redactado p como reflexión segun los comentarios del Profesor Ricardo.
+
+## Frase en negrilla.
+"No hay nada tan ineficiente como hacer de manera eficiente algo que no deberia hacerse"
+
+## Advertising op paara la pagina
+
+Para nosotros cada paso que damos para entregar un producto de calidad cuenta. Por ello al momento de diseñar cada producto ademas de pensar en ti pensamos 
+y en hacerlos de la mejor manera, siendo asi diseñamos nuestros productos de tal manera que puedieramos agrupar sus piezas según las operaciones de mecanizado 
+requeridas por cada una de las piezas y la forma de las mismas. Esto nos permitio diseñar una fabrica que se acoplara a nuestra manera de producir. Con este enfoque
+logramos tener un proceso productivo basante flexible capaz de adaptarse a las necesidades de nuestros clientes. Es por esto que logramos entregarte los productos que 
+amas en un tiempo record.
+
+Somos los mejores no solo por lo que hacemos, si no por como lo hacemos.
+
+
+##
+
+Teniendo en cuenta los comentarios del profesor Ricardo y las lecturas sugieridas se hicieron ajustes al proceso de diseño.
+
+Bajo el enfoque de tecnología de grupos lo que se busca es agrupar las piezas segun sus similitudes en tamaño, caracteristicas y forma dado que esto 
+seguramente implica procesos de producción similares. Esto permite generar procesos similares y descomponer el proceso productivo en procesos mas especificos y 
+faciles de administrar, que solo requieres leves variaciones según la pieza en especifico a manufacturar. Esto oermite un mejor control del proceso productivo,
+lo hace mas eficiente, permite un mejor entendimiento y le brinda flexibilidad. Ademas dado a que se tienen unidade muy especializadas en algun proceso se da
+un ahorro en terminos de material, tiempo y recurso que mejoran los indicadores globales de la producción.
+
+Para nuestro caso inicialmente contabamos con 2 productos, deseabamos hacer una repisa y una mesa organizadora. Sabiamos que una de las 
+funcionalidades de la mesa la de organizador  por lo que contaba con diferentes ranuras. Una de las primeras decisiones fue parametrizar estas ranuras y hacer 
+que compartieran algunas dimensiones con el objetivo de disminuir el numero de herramientas necesarias. 
+
+Por otro lado tambien se considero incluir bisagras en las patas o apoyos de las mesas, lo que implica taladrar y usar tornillos para la unión, en vez de esto 
+optamos por usar un metodo de unión basado en fresado, por lo que optamos por usar ranuras de baja profundidad donde encajaran las patas y hacer la unión con 
+pegamento
+
+Posteriormente teniendo en nuestra lista de procesos fresado, pegado y corte   decidimos diseñar una repisa que usara unicamente estos procesos y que tuviera un 
+toque estetico y diferencia a la vez. El resultado fue nuestra repisa lego, que solo requiere procesos de fresado en una de las piezas, corte para todas las tablas
+y pegado para su ensamble.
+
+Por ultimo nos dimos cuentas que nuestros productos solo tenian como insumo tablas, por lo que decidimos buscar un producto que pudiera hacerse solo con tablas y
+con los procesos antes empleados. La respuesta a esta pregunta fue nuestra casa para gatos que lograr una estructura estable sin el uso de tornillos con tablas
+ranuradas por fresado.
+
+Una vez seleccionados nuestros productos lo que hicimos fue seleccionar algunos de los calobres de tableros comerciales y ajustar las dimesiones de nuestros productos 
+segun ello para contar con las mismas entradas de material. 
+
+Tambien algo que hicimos fue diseñar el proceso de tal manera que primero se hace el fresaso de un lote completo de piezas en un mismo tablero antes de cortar el 
+tablero en piezas individuales, esto nos permite disminuir los tiempos de seteo dado que solo es necesario acomodar el tablero y con ello se aseguran todos 
+los fresados. Esta implementación es aplicable a todas las piezas que requieran fresado de los productos, dado que se busco diseñar teniendo como unicos materiales 
+tableros de manera. 
+
+En conclusión la tecnología de grupos nos permite tener un proceso eficiente y flexible dado que se tiene un numero acotado de procesos que se pueden parametrizar 
+segun se requiera. Lo que nos brinda un mayor control y flexbilidad en nuestro proceso.
+
