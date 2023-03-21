@@ -20,8 +20,19 @@ A continuación se presenta cada uno de los productos seleccionados, incluyendo 
 ## Selección de Materiales
 En cuanto a la materia prima, esta se seleccionó según dos criterios: primero la facilidad con la que podría ser transformada y segundo la disponibilidad en el mercado. 
 
-Se decide tomar como insumo principal tableros de madera de 122 x 244 cm en distintos calibres. Más adelante se especifica en cada producto el material a usar. 
+Se decide utilizar el material Triplex Pino Fenólico: Tablero contrachapado de Pino Radiata y resina fenólica, producido bajo estándares internacionales de calidad, que entrega a los proyectos una terminación natural y decorativa. Es ideal para aplicaciones interiores y exteriores, como mueblería, revestimiento decorativo, proyectos industriales y construcción. 
+      Ventajas: 
+       - Resistencia: Por la alternancia de las direcciones de las fibras presenta uniformidad y resistencia en todas direcciones 
+       - Ligereza: 480 – 530 kg/m3 
+       - Fácil para trabajar: Fácil mecanizado en parte debido a su baja densidad 
+      Características: 
+       - Gracias a su tamaño sirve para modulación, evitando desperdicios. 
+       - El tríplex es un producto que se puede teñir, barnizar o pintar a tu gusto. 
+       - Viene inmunizado contra el comején y no atrae insectos. 
+       - No causa mal olor 
+       - Tiene gran duración en el tiempo gracias a su tratamiento de secado
 
+Se decide tomar como insumo principal tableros de madera de 122 x 244 cm en distintos calibres. 
 
 1. **Organizador de escritorio estilo mesa**
 
@@ -35,17 +46,6 @@ Se decide tomar como insumo principal tableros de madera de 122 x 244 cm en dist
 
 - Materiales:
     * Triplex Pino Fenolico 122cm x 244cm espesor de 15mm:
-      Es un tablero contrachapado de Pino Radiata y resina fenólica, producido bajo estándares internacionales de calidad, que entrega a los proyectos una terminación natural y decorativa. Es ideal para aplicaciones interiores y exteriores, como mueblería, revestimiento decorativo, proyectos industriales y construcción. 
-      Ventajas: 
-       - Resistencia: Por la alternancia de las direcciones de las fibras presenta uniformidad y resistencia en todas direcciones 
-       - Ligereza: 480 – 530 kg/m3 
-       - Fácil para trabajar: Fácil mecanizado en parte debido a su baja densidad 
-      Características: 
-       - Gracias a su tamaño sirve para modulación, evitando desperdicios. 
-       - El tríplex es un producto que se puede teñir, barnizar o pintar a tu gusto. 
-       - Viene inmunizado contra el comején y no atrae insectos. 
-       - No causa mal olor 
-       - Tiene gran duración en el tiempo gracias a su tratamiento de secado
     * Barniz.
     * Pegante o adhesivo.
 
