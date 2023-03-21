@@ -10,3 +10,4 @@ En este repositorio se encuentran alojados todos los documentos referentes al pr
 3. [Documento tiempos estimados por proceso](https://github.com/PurpleWood-APM/Documentacion-Proyecto/blob/main/gestion-produccion/TiemposEstimadosProduccion.md)
 4. [Hoja de Ruta Celda Robótica](https://app.diagrams.net/#HPurpleWood-APM%2FDocumentacion-Proyecto%2Fmain%2Fdiseno-celda-robotica%2FHojaDeRuta.drawio)
 5. [Estructura de desglose de trabajo - Ruta crítica](https://miro.com/welcomeonboard/T3VrNjMzTlJIcXowcWZEU1lKb2N1azlsZVlITDB0VVlUN1dheGdLOU91RUpOVjE3UzhSTVMwZDVuZE81d3BTYXwzMDc0NDU3MzU5MDEwODQ1MTkyfDI=?share_link_id=928320601970)
+6. [Diagrama VSM pre-automatización](https://github.com/PurpleWood-APM/Documentacion-Proyecto/blob/main/gestion-produccion/Diagrama%20VSM.md)
