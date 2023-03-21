@@ -34,7 +34,16 @@ Se decide tomar como insumo principal tableros de madera de 122 x 244 cm en dist
     <img width="600" alt="organizador" src="img-SeleccionDeProductos/cotasMesa.png">
 
 - Materiales:
-    * Triplex Pino Fenolico 122cm x 244cm espesor de 15mm.
+    * Triplex Pino Fenolico 122cm x 244cm espesor de 15mm:
+      Es un tablero contrachapado de Pino Radiata y resina fenólica, producido bajo estándares internacionales de calidad, que entrega a los proyectos una terminación natural y decorativa. Es ideal para aplicaciones interiores y exteriores, como mueblería, revestimiento decorativo, proyectos industriales y construcción. 
+      Ventajas: 
+       - Resistencia: Por la alternancia de las direcciones de las fibras presenta uniformidad y resistencia en todas direcciones 
+
+Ligereza: 480 – 550 kg/m3 
+
+Fácil para trabajar: Fácil mecanizado en parte debido a su baja densidad 
+
+gracias a que la lámina es liviana es más fácil cortarla para darle la forma que necesitas, siendo un pro a la hora de querer que tus herramientas para corte duren más ya que su desgaste es menor. 
     * Barniz.
     * Pegante o adhesivo.
 
