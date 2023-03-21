@@ -21,16 +21,24 @@ A continuación se presenta cada uno de los productos seleccionados, incluyendo 
 En cuanto a la materia prima, esta se seleccionó según dos criterios: primero la facilidad con la que podría ser transformada y segundo la disponibilidad en el mercado. 
 
 Se decide utilizar el material Triplex Pino Fenólico: Tablero contrachapado de Pino Radiata y resina fenólica, producido bajo estándares internacionales de calidad, que entrega a los proyectos una terminación natural y decorativa. Es ideal para aplicaciones interiores y exteriores, como mueblería, revestimiento decorativo, proyectos industriales y construcción. 
-      Ventajas: 
-       - Resistencia: Por la alternancia de las direcciones de las fibras presenta uniformidad y resistencia en todas direcciones 
-       - Ligereza: 480 – 530 kg/m3 
-       - Fácil para trabajar: Fácil mecanizado en parte debido a su baja densidad 
-      Características: 
-       - Gracias a su tamaño sirve para modulación, evitando desperdicios. 
-       - El tríplex es un producto que se puede teñir, barnizar o pintar a tu gusto. 
-       - Viene inmunizado contra el comején y no atrae insectos. 
-       - No causa mal olor 
-       - Tiene gran duración en el tiempo gracias a su tratamiento de secado
+
+- Ventajas:
+    * Resistencia: Por la alternancia de las direcciones de las fibras presenta uniformidad y resistencia en todas direcciones
+    * Ligereza: 480 – 530 kg/m3
+    * Fácil para trabajar: Fácil mecanizado en parte debido a su baja densidad 
+      
+- Características:
+
+    * El tríplex es un producto que se puede teñir, barnizar o pintar a tu gusto.
+    * Viene inmunizado contra el comején y no atrae insectos. 
+    * No causa mal olor 
+    * Tiene gran duración en el tiempo gracias a su tratamiento de secado
+
+Referencias del material:
+
+- https://issuu.com/madecentrocolombiasas/docs/ficha_t_cnica_-_tx_formaleta
+- https://carpincentro.com/products/triplex-pino-fenolico-122x244
+- https://www.refocosta.com/wp-content/uploads/2021/09/4-Ficha-Tecnica-Triplex-Pino.pdf
 
 Se decide tomar como insumo principal tableros de madera de 122 x 244 cm en distintos calibres. 
 
