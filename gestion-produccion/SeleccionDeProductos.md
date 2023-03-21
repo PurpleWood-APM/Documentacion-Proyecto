@@ -40,8 +40,13 @@ Se decide tomar como insumo principal tableros de madera de 122 x 244 cm en dist
        - Resistencia: Por la alternancia de las direcciones de las fibras presenta uniformidad y resistencia en todas direcciones 
        - Ligereza: 480 – 530 kg/m3 
        - Fácil para trabajar: Fácil mecanizado en parte debido a su baja densidad 
-       - Gracias a que la lámina es liviana es más fácil cortarla para darle la forma que necesitas, siendo un pro a la hora de querer que tus herramientas para corte duren más ya que su desgaste es menor. 
-   
+      Características: 
+       - Gracias a su tamaño sirve para modulación, evitando desperdicios. 
+       - El tríplex es un producto que se puede teñir, barnizar o pintar a tu gusto. 
+       - Viene inmunizado contra el comején y no atrae insectos. 
+       - No causa mal olor 
+       - Tiene gran duración en el tiempo gracias a su tratamiento de secado
+       -
     * Barniz.
     * Pegante o adhesivo.
 
