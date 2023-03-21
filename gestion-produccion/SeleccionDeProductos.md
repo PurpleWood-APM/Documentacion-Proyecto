@@ -46,7 +46,6 @@ Se decide tomar como insumo principal tableros de madera de 122 x 244 cm en dist
        - Viene inmunizado contra el comején y no atrae insectos. 
        - No causa mal olor 
        - Tiene gran duración en el tiempo gracias a su tratamiento de secado
-       -
     * Barniz.
     * Pegante o adhesivo.
 
