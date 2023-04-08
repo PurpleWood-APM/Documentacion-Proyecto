@@ -47,6 +47,7 @@ Con estos datos se procede a realizar el digrama VSM o Value Stream Mapping, con
 ([Documento tiempos estimados por proceso](https://github.com/PurpleWood-APM/Documentacion-Proyecto/blob/main/gestion-produccion/TiemposEstimadosProduccion.md)), disponibilidad de las máquinas para cada proceso y los diagramas de flujo detallados para cada producto ([Diagramas de flujo](https://github.com/PurpleWood-APM/Documentacion-Proyecto/tree/main/gestion-produccion/esquemas-SeleccionDeProductos)).
 
 ![VSM_pre](https://user-images.githubusercontent.com/51938754/230695004-af738ec9-b37b-4e4b-9a45-6a32f478716d.png)
+https://lucid.app/lucidchart/22ce5c2b-ee08-4e71-a5f5-4fa62de4c11d/edit?viewport_loc=-34%2C27%2C3483%2C1503%2C0_0&invitationId=inv_8d96285d-1d1e-4bef-90a1-d884c3b4282a
 
 Se identifican momentos clave para el inventario de productos intermedios necesarios para otros procesos posteriores e inventario de los productos terminados. Además,
 se encuentran el tiempo o plazo total de producción LT = 21 minutos y el tiempo de valor añadido VA = 33 horas.
