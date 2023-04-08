@@ -1,10 +1,8 @@
 # Explicación sobre la distribución de la planta.
 
 ## Distribución de planta propuesta
--aca me ayudan a meter la imagen-
 
-
-
+<img width="1000" alt="Distribucion de planta" src="Distibución planta.jpeg">
 
 ## Consideraciones sobre la distribución de la planta
 
