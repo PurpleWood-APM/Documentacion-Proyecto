@@ -63,4 +63,6 @@ Si se desea ver las animaciones  o las conexiones con ignition y su relación co
 [video planta NX](https://www.youtube.com/watch?v=FqLP5wtsmLo)
 
 [video SCADA y Conexiones](https://www.youtube.com/watch?v=R3Ken7L0liA)
+
+Si se quiere ver los archivos NX de la planta dirijase al repositorio a [Repositorio de ]() el repositorio para elementos pesados como diseños 3D. 
  
