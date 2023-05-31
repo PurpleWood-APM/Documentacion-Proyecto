@@ -44,7 +44,7 @@ Los datos para los cálculos son obtenidos de las siguientes referencias:
 * Barnizado: https://www.youtube.com/watch?v=sDyuOxmJu3c y https://powdertronic.com/principales-partes-y-mantenimiento-de-una-pistola-para-pintar/
 * Robot KUKA: https://www.dempro.co/post/cada-cuanto-se-deben-hacer-los-mantenimientos-en-los-robots-kuka
 
-### Diagrama VSM
+### Diagrama VSM pre-automatización
 
 Con estos datos se procede a realizar el digrama VSM o Value Stream Mapping, contando con la información de la demanda, tiempos de los procesos previamente mostrados 
 ([Documento tiempos estimados por proceso](https://github.com/PurpleWood-APM/Documentacion-Proyecto/blob/main/gestion-produccion/TiemposEstimadosProduccion.md)), disponibilidad de las máquinas para cada proceso y los diagramas de flujo detallados para cada producto ([Diagramas de flujo](https://github.com/PurpleWood-APM/Documentacion-Proyecto/tree/main/gestion-produccion/esquemas-SeleccionDeProductos)).
@@ -54,3 +54,46 @@ https://lucid.app/lucidchart/22ce5c2b-ee08-4e71-a5f5-4fa62de4c11d/edit?viewport_
 
 Se identifican momentos clave para el inventario de productos intermedios necesarios para otros procesos posteriores e inventario de los productos terminados. Además,
 se encuentran el tiempo o plazo total de producción LT = 21 minutos y el tiempo de valor añadido VA = 33 horas.
+
+## Pos-automatización
+
+De acuerdo al diagrama pre-automatización y los requerimiento generales del takt time y la demanda, se procede a realizar el proceso de mejorar las estrategias pre-automatización:
+
+1.  Primero se hizo una reevaluación de los procesos involucrados en la producción, se eliminaron procesos que no eran necesarios o se podían hacer en una misma estación:
+    * Se eliminaron los procesos de biselado, resanado y pintura. Esto es debido al material usado (Triplex fenólico), el cual ya tiene acabados apropiados  y no es necesario una pintura adicional al barnizado. Por lo tanto, acortamos tiempos en la producción, tanto tiempos de espera por el almacenamiento adicional de la pintura como de alistamiento de las herramientas para el biselado y resanado.
+    * Se juntaron los procesos de corte y fresado en una misma estación, gracias a que se cotizó una máquina con la capacidad de hacer los dos procesos, acortando así tiempos de alistamiento y transporte de la materia prima a otra estación.
+
+2.  Se disminuye el tiempo de mantenimiento de algunas máquinas, buscano otras opciones de equipos y máquinas, aumentando su disponibiliad.
+3.  Implementación de una celda robótica para el barnizado, junto con banda trasnportadoras aéreas (Head Conveyor) para su transporte continuo y almacenamiento ágil.
+4.  Un proceso de inspección de fallas, basado en una cámara para detección de fallas en las piezas y un actuador neumático que empuja la pieza, en caso
+de presentar fallas, fuera de la línea principal de producción para no ser empaquetado. Con esto se mejora la calidad de los productos finales.
+### Procesos y disponibilidad
+
+Por ende, se tienen los siguiente procesos con su rescpectiva disponibilidad:
+
+![image](https://github.com/PurpleWood-APM/Documentacion-Proyecto/assets/51938754/715f3b52-0f4b-49b8-908a-d0c55d9e93e5)
+
+La disponibiliad es calculada de acuerdo a tiempos de mantenimiento y reparación de fallas, que se encontraron buscando en artículos sobre la vida útil de estas máquinas y con las fórmulas antes mencionadas, se presenta un resúmen a continuación:
+
+![image](https://github.com/PurpleWood-APM/Documentacion-Proyecto/assets/51938754/8ff4880c-1124-4b87-b729-b23d3d013ec1)
+
+Los datos para los cálculos son obtenidos de las siguientes referencias:
+
+* CNC: https://www.upkeep.com/learning/preventive-maintenance-on-cnc-machines/
+* Lijadora: https://www.educarex.es/pub/cont/com/0055/documentos/10_Información/07_Herramientas/La_lijadora.pdf
+* Robot: https://www.dempro.co/post/cada-cuanto-se-deben-hacer-los-mantenimientos-en-los-robots-kuka
+* Actuador neumático: https://www.distritec.com.ar/cuando-debo-realizar-el-mantenimiento-de-los-cilindros-neumaticos/#:~:text=Entre%20500%20y%203000%20km%20recorridos%20semanales%20es%20considerable%20realizar%20el%20mantenimiento.
+
+### Diagrama VSM pos-automatización
+
+Con estos datos se procede a realizar el digrama VSM o Value Stream Mapping, contando con la información de la demanda, tiempos de los procesos previamente mostrados 
+([Documento tiempos estimados por proceso](https://github.com/PurpleWood-APM/Documentacion-Proyecto/blob/main/gestion-produccion/TiemposEstimadosProduccion.md)), disponibilidad de las máquinas para cada proceso y los diagramas de flujo detallados para cada producto ([Diagramas de flujo](https://github.com/PurpleWood-APM/Documentacion-Proyecto/tree/main/gestion-produccion/esquemas-SeleccionDeProductos)).
+
+![VSM-pos](https://github.com/PurpleWood-APM/Documentacion-Proyecto/assets/51938754/1aec4a5a-15d1-4f6a-a35e-9cd6bb351e64)
+https://lucid.app/lucidchart/128ed46a-2627-4925-9767-d102effc57cf/edit?viewport_loc=145%2C-150%2C3536%2C1826%2C0_0&invitationId=inv_a2124c5f-1b73-47c4-9161-48341412ba24
+
+Se observan el tiempo de producción y tiempo de valor añadido, presentando una mejora en este último. El tiempo de corte y fresado es alto debido a que por cada tabla de madera salen 30 o 12 piezas y el tiempo de corte de todas estas piezas es de 2 horas y 30 minutos; hasta que no se corten todas las piezas no es posible continuar la producción.
+
+Se destaca el uso de tarjetas Kanban, lo que permite disminuir la cantidad de procesos que requieren comunicación directa con control de producción, ya que se pueden comunicar los procesos a nivel bajo, con solo una interfaz a control del producción.
+
+
