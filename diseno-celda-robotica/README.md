@@ -165,6 +165,15 @@ Asi se llega a las siguientes medidas:
   - Alcance maximo y carga maxima
   - Puntos de levantamiento.
 
-
 Asi mismo otras  medidas se relacionan con la correcta capacitación de personal para el trabajo con el robot, un sistema de detección de fallas y anomalias que pueda detener el funcionamiento del robot y una revisión con externos para validar el conjunto de medidas implementadas.
 
+# Simulación de la celda
+Se modela la cabina de barnizado en robotStudio, incluyendose la simulación del transportador y la rutina de pintura para la tabla de casa de gato. Para la simulación se realizaron las siguientes adaptaciones y simplificaciones:
+- Se emplea el IRB 1600 de 1.45m, el cual es el robot más parecido al seleccionado dentro de la carpeta de manipuladores de RobotStudio.
+- No se puede simular el giro de las piezas, por lo tanto se agrega un sensor que indica cuando se repite la rutina de pintura.
+- Se usan sensores de linea para detectar las piezas y dar inicio a la rutina del robot.
+- Se incluyen páneles para generar el encerramiento de la celda.
+- Se hace uso de Smart Components.
+- Se modela el gancho y se acomoda la pieza de modo que simule que está colgada.
+
+<img width="600" alt="simulacion" src="Simulacion.gif">
