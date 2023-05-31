@@ -29,7 +29,7 @@ Para el proyecto de plante el uso de diferentes comunicaciones para interconecta
 
 ### Conexión Gemelo Digital
 - **Protocolo:** Para la conexión con entre ignition y Studio 5000 usamos el protocolo OPC
-- **Canales:** Repecto a los canales usamos conexi
+- **Canales:** Repecto a los canales usamos conexion con ethernet con conexiones WAN o LAN.
 - **Niveles de la pirámide de automatización:** La comunicación se realiza entre el nivel de supervisión y el de planeación, siendo esta una de las finalides del gemelo digital implementado.
 
 ### Respecto a la elección de Profibus
