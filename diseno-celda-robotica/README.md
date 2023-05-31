@@ -95,13 +95,40 @@ Se consideran 2 opciones: flujo lineal y flujo en U. Se escoge la opción del fl
 
 Se propone el siguiente flujo de proceso: un operario saca del almacén de partes un lote listo para barnizar y lo ubica en la banda transportadora que se dirige a la celda robótica. Una vez ubicado en la celda, el operario cuelga los productos en la sección manual del transportador suspendido y los va dirigiendo a la sección automática. Una vez allá, el transportador lleva los productos hacia el robot, donde este gracias a sensores de linea detecta las piezas y escoge la rutina correspondiente para realizar el proceso de barnizado. Posteriormente las partes salen de la cabina de barnizado hacia la parte manual del transportador y allá un operario conduce las piezas hasta la zona de secado y almacenamiento, compuesta por varias lineas paralelas de transportadores, unidos por interruptores manuales que permiten mover los lotes de piezas a distintas lineas de almacenamiento. Finalmente luego de 24 horas de curado el operario conduce las partes hacia la zona de inspección de calidad.
 
-<img width="400" alt="guia" src="FlujoProceso.png">
+<img width="400" alt="layout" src="LayoutCeldaRobotica.png">
 
 ### Mecanismo de transporte
 Para el movimiento de las piezas se plantea el uso de transportadores suspendidos (overhead conveyor) de la marca Pacline. Se escoge la linea de productos Unibilt, transportadores de guías cuadradas cerradas diseñadas principalmente para lineas de pintura, ensamblaje y almacenamiento de partes. La guía cerrada ayuda a evitar la contaminación del interior de las guías y los carritos de transporte. 
 
-<img width="400" alt="guia" src="FlujoProceso.png">
+<img width="400" alt="guia" src="Guia.png">
 
-A pesar de que los productos Unibilt ofrecen la posibilidad de emplear cadenas móviles para la fácil automatización del transportador, se opta por la versión manual, pues se ajusta más al flujo de partes deseado
+A pesar de que los productos Unibilt ofrecen la posibilidad de emplear cadenas móviles para la fácil automatización del transportador, se opta por la versión manual, pues se ajusta más al flujo de partes deseado y se automatiza la parte correspondiente a la cabina de barnizado con una cadena de transmisión de potencia unida a un motor. Para el transporte de objetos se escogen los carritos manuales de 4 ruedas, con una capacidad de carga de hasta 250 lb.
 
-### Disposición 
+<img width="400" alt="trolley" src="Trolley.png">
+
+A dichos carritos se les conecta un gancho giratorio de 90ª, que gracias a dos varillas ubicadas en la guía permite el giro de 180ª en las piezas para poder barnizarlas por ambos lados. A demás, la sujección por gancho facilita un acabado uniforme durante el barnizado.
+
+<img width="400" alt="gancho" src="Gancho.png">
+
+### Robot
+Se selecciona el robot SZGH-P1500-B-6, un brazo robótico antropomórfico de 6 ejes de la marca Shenzhen Guanhong Automation, diseñado especialmente para procesos de pintura industriales y que tiene las siguientes características:
+
+| Característica           | Detalles            | 
+|--------------------------|---------------------|
+| Dimensión (L-W-H)        | 1000mm-1000mm-1000mm| 
+| Payload                  | 6kg                 | 
+| Peso                     | 125kg               | 
+| Sustrato                 | Acero               | 
+| Potencia                 | 1000W               | 
+| Alcance                  | 1500mm              | 
+
+<img width="400" alt="robot" src="Robot.png">
+
+Además, es necesario acoplar el sistema de suministro y aplicación de pintura, para lo cual se sigue el siguiente esquema:
+
+<img width="400" alt="sistemaPintura" src="SistemaPintura.png">
+
+El cual consiste de 4 partes fundamentales: la pistola de pintura, la bomba, el mezclador y el sistema de actuación electroneumática. También es importante resaltar que para evitar tiempos de secado excesivamente largos y la aplicación de varias capas de barniz se seleccionó el barniz de secado rápido y acabado mate Sayerlack Nitro, el cual solo requiere de la aplicación de 1 capa para un buen acabado y 24 horas de curado.
+
+###
+
