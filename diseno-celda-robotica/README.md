@@ -59,7 +59,7 @@ Esta es una tarea sencilla pero altamente repetitiva y monotona, a su vez como e
 
 # Cambios posteriores a la 1er sustentación
 ## Proceso a robotizar
-En la matriz de selección realizada para la primer entrega no se tuvo en cuenta la automatización de esos procesos con alternativas distintas al uso de robots. Después de analizar posibles alternativas de automatización, se llegó a la conclusión de que la inspección de calidad se puede realizar con un simple pistón que retire los objetos de la banda transportadora. Así mismo, el traslado de productos es más fácil hacerlo mediante bandas/cadenas transportadoras. Por lo tanto se procede a analizar el proceso con el 3er mejor puntaje según la matriz de selección: pintura y acabado.
+En la matriz de selección realizada para la primer entrega no se tuvo en cuenta la automatización de esos procesos con alternativas distintas al uso de robots. Después de analizar posibles alternativas de automatización, se llegó a la conclusión de que la inspección de calidad se puede realizar con un simple pistón que retire los objetos de la banda transportadora. Así mismo, el traslado de productos es más fácil hacerlo mediante bandas/cadenas transportadoras. Por lo tanto se procede a analizar el proceso con el 3er mejor puntaje según la matriz de selección: *pintura y acabado*.
 ## Justificación del proceso de robotización
 La introducción de un robot en la celda de manufactura para el barnizado de muebles de madera puede aportar una serie de beneficios significativos, tanto desde una perspectiva técnica como económica:
 
@@ -74,11 +74,34 @@ Aunque la adquisición e implementación inicial de un robot puede tener un cost
 
 ### Mejora de la seguridad laboral
 Un trabajador dedicádo únicamente al barnizado de muebles con pistola de pintura está expuesto a los siguientes riesgos para su salud:
-- Inhalación de vapores y partículas: Durante el proceso de barnizado, se liberan vapores y partículas de pintura al aire. La exposición continua a estos químicos puede causar irritación en los ojos, nariz y garganta, así como problemas respiratorios a largo plazo. Algunos tipos de pintura contienen sustancias tóxicas, como disolventes orgánicos, que pueden tener efectos dañinos para la salud si se inhalan en cantidades significativas.
-- Exposición dérmica: El contacto directo con la pintura puede provocar irritación en la piel y posibles reacciones alérgicas. Algunas pinturas también contienen productos químicos que pueden ser absorbidos a través de la piel y causar efectos adversos en la salud.
-- Riesgo de lesiones oculares: Las partículas de pintura suspendidas en el aire pueden ingresar a los ojos del trabajador, lo que puede provocar irritación, infecciones o lesiones más graves. Además, el uso inadecuado de gafas de protección o carencia de las mismas aumenta el riesgo de daños oculares.
-- Riesgo de incendio o explosión: Algunas pinturas son inflamables y pueden representar un riesgo de incendio o explosión si entran en contacto con fuentes de ignición, como chispas eléctricas o llama abierta.
-- Condiciones ergonómicas deficientes: La utilización prolongada de la pistola de pintura puede generar fatiga muscular y estrés físico debido al peso y la vibración de la herramienta. Las posturas incómodas y repetitivas pueden ocasionar lesiones musculoesqueléticas, como dolores de espalda, cuello y brazos.
+- **Inhalación de vapores y partículas**: Durante el proceso de barnizado, se liberan vapores y partículas de pintura al aire. La exposición continua a estos químicos puede causar irritación en los ojos, nariz y garganta, así como problemas respiratorios a largo plazo. Algunos tipos de pintura contienen sustancias tóxicas, como disolventes orgánicos, que pueden tener efectos dañinos para la salud si se inhalan en cantidades significativas.
+- **Exposición dérmica**: El contacto directo con la pintura puede provocar irritación en la piel y posibles reacciones alérgicas. Algunas pinturas también contienen productos químicos que pueden ser absorbidos a través de la piel y causar efectos adversos en la salud.
+- **Riesgo de lesiones oculares**: Las partículas de pintura suspendidas en el aire pueden ingresar a los ojos del trabajador, lo que puede provocar irritación, infecciones o lesiones más graves. Además, el uso inadecuado de gafas de protección o carencia de las mismas aumenta el riesgo de daños oculares.
+- **Riesgo de incendio o explosión**: Algunas pinturas son inflamables y pueden representar un riesgo de incendio o explosión si entran en contacto con fuentes de ignición, como chispas eléctricas o llama abierta.
+- **Condiciones ergonómicas deficientes**: La utilización prolongada de la pistola de pintura puede generar fatiga muscular y estrés físico debido al peso y la vibración de la herramienta. Las posturas incómodas y repetitivas pueden ocasionar lesiones musculoesqueléticas, como dolores de espalda, cuello y brazos.
 La robotización de tareas peligrosas, puede reducir los riesgos para la salud y la seguridad de los trabajadores dado que los robots están diseñados para cumplir con rigurosas normas de seguridad y pueden operar en entornos potencialmente peligrosos sin correr el riesgo de lesiones o enfermedades laborales. Esto no solo protege a los trabajadores, sino que también puede disminuir los costos asociados con accidentes laborales y reclamaciones de indemnización.
 
 # Diseño de celda robotizada
+## Celda tradicional
+Partimos del diseño de una celda de barnizado a mano, la cual consiste en un almacén de piezas por pintar, una mesa con estación de pintura (compresor y pistola, latas de barniz y solventes) y un almacén de secado. El flujo de proceso es en forma de U e inicia en el almacén de productos proveninetes de la zona de ensamble. El operario coge los productos del almacén y los lleva a la mesa de pintura, donde prepara la mezcla de barniz y aplica 1 capa de barniz. Posteriormente lleva el producto fresco al almacén de secado donde dependiendo el tipo de barniz a usar puede durar entre 1 y 2 horas hasta la próxima capa de pintura. El proceso de aplicación y secado se repite hasta completar 3 capas y el producto se almacena durante 24-48 horas hasta que cure por completo. Finalmente los productos terminados son transportados a la sección de empaquetado. 
+
+<img width="400" alt="celdaTrad" src="CeldaTrad.png">
+
+## Celda robotizada
+### Flujo de proceso
+Se consideran 2 opciones: flujo lineal y flujo en U. Se escoge la opción del flujo en U principalmente porque reduce el espacio ocupado por la celda en la fábrica y permite que el mismo operario encargado de colgar los productos y supervisar el funcionamiento del robot se encargue también de manejar el almacenamiento y flujo de salida de productos curados hacia la zona de revisión de calidad.
+
+<img width="400" alt="flujo" src="FlujoProceso.png">
+
+Se propone el siguiente flujo de proceso: un operario saca del almacén de partes un lote listo para barnizar y lo ubica en la banda transportadora que se dirige a la celda robótica. Una vez ubicado en la celda, el operario cuelga los productos en la sección manual del transportador suspendido y los va dirigiendo a la sección automática. Una vez allá, el transportador lleva los productos hacia el robot, donde este gracias a sensores de linea detecta las piezas y escoge la rutina correspondiente para realizar el proceso de barnizado. Posteriormente las partes salen de la cabina de barnizado hacia la parte manual del transportador y allá un operario conduce las piezas hasta la zona de secado y almacenamiento, compuesta por varias lineas paralelas de transportadores, unidos por interruptores manuales que permiten mover los lotes de piezas a distintas lineas de almacenamiento. Finalmente luego de 24 horas de curado el operario conduce las partes hacia la zona de inspección de calidad.
+
+<img width="400" alt="guia" src="FlujoProceso.png">
+
+### Mecanismo de transporte
+Para el movimiento de las piezas se plantea el uso de transportadores suspendidos (overhead conveyor) de la marca Pacline. Se escoge la linea de productos Unibilt, transportadores de guías cuadradas cerradas diseñadas principalmente para lineas de pintura, ensamblaje y almacenamiento de partes. La guía cerrada ayuda a evitar la contaminación del interior de las guías y los carritos de transporte. 
+
+<img width="400" alt="guia" src="FlujoProceso.png">
+
+A pesar de que los productos Unibilt ofrecen la posibilidad de emplear cadenas móviles para la fácil automatización del transportador, se opta por la versión manual, pues se ajusta más al flujo de partes deseado
+
+### Disposición 
