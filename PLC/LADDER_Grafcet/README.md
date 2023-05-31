@@ -108,5 +108,5 @@ Visto con grafcet y con mejor nomenclatura de sensores y actuadroes tendríamos:
 ### Lista entradas y salidas
 ![image](https://github.com/PurpleWood-APM/Documentacion-Proyecto/assets/51938754/8f021268-1f00-4215-b0e5-d64a0ced4e90)
 
-Si se desea ver el progama realizado en LADDER dirjase a [Código en ladder]() de nuesstro repositorio complementario para archivos que puedan ser de gran tamaño
+Si se desea ver el progama realizado en LADDER dirjase a [Código en ladder](https://github.com/PurpleWood-APM/DisenoDeProduccion) de nuestro repositorio complementario para archivos que puedan ser de gran tamaño. El proyecto en LADDER lo encontra´ra con el nombre ProyectoAPM.ADC
 También puede ver las conexiones entre el plc, studio 5000 y demás softwares en el siguiente link: [Video de SCADA] (https://www.youtube.com/watch?v=R3Ken7L0liA&t=3s)
