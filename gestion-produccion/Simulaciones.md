@@ -1,4 +1,4 @@
-# Simulaciones
+# Simulaciones y OEE
 
 ## Process Analysis
 Se realiza la simulación del flujo de materias primas y ciclo de trabajo para la producción de los tres productos (Mesa organizadora, repisa y casa de gato). Para esto se realiza el flujo de los procesos de producción en el software Process Analysis, en el cuál se registran los procesos con características ya documentadas en [Documento tiempos estimados por proceso](https://github.com/PurpleWood-APM/Documentacion-Proyecto/blob/main/gestion-produccion/TiemposEstimadosProduccion.md) y [Cálculos para el digrama VSM](https://github.com/PurpleWood-APM/Documentacion-Proyecto/blob/main/gestion-produccion/DiagramaVSM.md).
