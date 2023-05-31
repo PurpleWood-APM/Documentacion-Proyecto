@@ -10,17 +10,22 @@ Este fue un primer flujo realizado antes de aplicar estrategias de pre-automatiz
 
 ## Tecnomatix
 
-Se realizó un diseño preliminar de la planta en Tecnomatix, para así observar la distribución de planta (Layout), identificar tiempos de inactividad, tiempos de ciclo, vólumen de producción en un tiempo determinado, calidad, desempeño, disponibilidad, entre otros. 
+Se realizó un diseño preliminar de la planta en Tecnomatix, para así observar la distribución de planta (Layout), identificar tiempos de inactividad, tiempos de ciclo, volumen de producción en un tiempo determinado, calidad, desempeño, disponibilidad, entre otros. 
 
 ![Planta](https://user-images.githubusercontent.com/51938754/230695854-bd9f3cf9-0aaf-4d64-9ce0-301e9d5b5d0a.png).
 [Archivo preliminar de Tecnomatix](https://github.com/PurpleWood-APM/Documentacion-Proyecto/blob/main/gestion-produccion/Planta.spp)
 
 Esta simulación se realizó antes de aplicar las estrategías de pre-automzatización; con base a esta distribución y el VSM pos-automatización se llegó a la siguente distribución de planta:
 
+![distribucion_final_planta](https://github.com/PurpleWood-APM/Documentacion-Proyecto/assets/51938754/febaf970-8e95-4cda-9230-db8d0eda1545)
+
+[Distribución final](https://github.com/PurpleWood-APM/Documentacion-Proyecto/blob/main/gestion-produccion/distribucion_final_planta.jpg)
 
 A la vez, tomando como punto de partida esta distribución, el VSM pos-automatización y las correspondientes caractéristicas de cada proceso se llega a la siguiente distribución de planta y simulación final en Tecnomatix:
 
 ![image](https://github.com/PurpleWood-APM/Documentacion-Proyecto/assets/51938754/7e4b6ec5-8ab7-4c03-84f5-ca593857d2fd)
+Archivo de la simulación:
+[Simulación final Tecnomatix](https://github.com/PurpleWood-APM/Documentacion-Proyecto/blob/main/gestion-produccion/PurpleWood-tecnomatix.spp)
 
 En el programa se configuran las características de cada proceso: Tiempo de ciclo, tiempo de set-up, disponibilidad intrínseca, promedio de tiempo de inactividad. También se configuran varios tipos de piezas para identificar los 3 tipos de productos generados y sus respectivas piezas, según la siguiente nomenclatura:
 
@@ -34,6 +39,9 @@ Se muestran algunos resultados del reporte de la simulación, para tres días, t
 <img src="https://github.com/PurpleWood-APM/Documentacion-Proyecto/assets/51938754/e79884fb-d4f9-43ba-a3af-ae099dbd30fd" width= "700" height = "300">
 
 <img src="https://github.com/PurpleWood-APM/Documentacion-Proyecto/assets/51938754/4a01f1a4-c44f-4a28-b18e-4f5f857fbc56" widtg = "300" height ="100">
+
+El reporte completo es el siguiente:
+[Reporte Tecnomatix](https://github.com/PurpleWood-APM/Documentacion-Proyecto/blob/main/gestion-produccion/informe_tecnomatix_procesos.jpg)
 
 Se debe tener en cuenta que no se pudo realizar el traspaso automático de materiales de almacenamiento a una siguiente estación, por esto aparece el porcentaje de Storage en 0%; por ende, se simularon estos tiempos por separado, siendo el tiempo promedio en almacenamiento de una pieza 2 días. De acuerdo a estos resultados se realizan los cálculos de tiempos de espera y de trabajo, y poder obtener el tiempo de ciclo total y tiempos de espera no planeados.
 
