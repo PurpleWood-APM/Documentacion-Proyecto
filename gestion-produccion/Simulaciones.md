@@ -21,6 +21,10 @@ Esta simulación se realizó antes de aplicar las estrategías de pre-automzatiz
 
 [Distribución final](https://github.com/PurpleWood-APM/Documentacion-Proyecto/blob/main/gestion-produccion/distribucion_final_planta.jpg)
 
+Además, basado en la disponibilidad, fallas y tiempos de los procesos, calculados en [Diagrama VSM](https://github.com/PurpleWood-APM/Documentacion-Proyecto/blob/main/gestion-produccion/Diagrama VSM.md) se tiene el siguiente resumen de las características de cada proceso para configurar la simulación:
+
+![image](https://github.com/PurpleWood-APM/Documentacion-Proyecto/assets/51938754/10ae8455-42c6-4359-8e7f-f84cc6f7d43d)
+
 A la vez, tomando como punto de partida esta distribución, el VSM pos-automatización y las correspondientes caractéristicas de cada proceso se llega a la siguiente distribución de planta y simulación final en Tecnomatix:
 
 ![image](https://github.com/PurpleWood-APM/Documentacion-Proyecto/assets/51938754/7e4b6ec5-8ab7-4c03-84f5-ca593857d2fd)
@@ -43,7 +47,7 @@ Se muestran algunos resultados del reporte de la simulación, para tres días, t
 El reporte completo es el siguiente:
 [Reporte Tecnomatix](https://github.com/PurpleWood-APM/Documentacion-Proyecto/blob/main/gestion-produccion/informe_tecnomatix_procesos.jpg)
 
-Se debe tener en cuenta que no se pudo realizar el traspaso automático de materiales de almacenamiento a una siguiente estación, por esto aparece el porcentaje de Storage en 0%; por ende, se simularon estos tiempos por separado, siendo el tiempo promedio en almacenamiento de una pieza 2 días. De acuerdo a estos resultados se realizan los cálculos de tiempos de espera y de trabajo, y poder obtener el tiempo de ciclo total y tiempos de espera no planeados.
+Se debe tener en cuenta que no se pudo realizar el traspaso automático de materiales de almacenamiento a una estación subsecuente, por esto aparece el porcentaje de Storage en 0%; por ende, se simularon estos tiempos por separado, siendo el tiempo promedio en almacenamiento de una pieza 2 días. De acuerdo a estos resultados se realizan los cálculos de tiempos de espera y de trabajo, y poder obtener el tiempo de ciclo total y tiempos de espera no planeados.
 
 <img src="https://github.com/PurpleWood-APM/Documentacion-Proyecto/assets/51938754/e5bbca7f-2488-4d7e-944c-bfcbfb5b4e69" width= "400" height = "250">
 
@@ -52,6 +56,55 @@ Se observa que el tiempo de espera durante 1 día de trabajo es de 1,43 horas y 
 Se verifica que se cumple con la demanda de productos y se alcanzan a producir unidades extras de casas de gato, mesas organizadoras y repisas:
 
 <img src="https://github.com/PurpleWood-APM/Documentacion-Proyecto/assets/51938754/02741637-2a7b-4ba1-8e9c-e346da1f9df8" width ="300" height = "120">
+
+## OEE (Overall Equipment Effectiveness)
+
+Para el cálculo del OEE, se toman en cuenta los tiempos de trabajo de las máquinas del reporte de Tecnomatix para los tiempos reales y se tiene en cuenta el VSM y cálculos previos para los los tiempos diseñados o planeados.
+
+### Disponibilidad genérica
+
+Esta se calcula mediante la siguiente fórmula:
+
+<img src="https://github.com/PurpleWood-APM/Documentacion-Proyecto/assets/51938754/55d7dcb9-4e96-46d2-8ea5-641b437f166d" width ="350" heigth ="250">
+
+El tiempo total de la planta* se calculó de acuerdo con los días de trabajo, cantidad y horas de los turnos y descansos. Los tiempos de inactividad* planeados se calculan de acuerdo a los calculos de disponibilidad y tiempo de inacividad por mantenimiento o fallas programadas de cada máquina. Los tiempos de inactividad no planeados se obtienen de la simulación en tecnomatix, mostrados anteriormente como tiempos de espera. 
+
+* Detalles del cálculo en: [Diagrama VSM](https://github.com/PurpleWood-APM/Documentacion-Proyecto/blob/main/gestion-produccion/Diagrama VSM.md) 
+
+<img src="https://github.com/PurpleWood-APM/Documentacion-Proyecto/assets/51938754/7fce4c45-8934-4900-aeb8-43a34eca7c8f" width ="500" heigth ="400">
+
+Se obtiene una disponibilidad de **79,98%**
+
+
+### Eficacia de desempeño
+Esta se calcula mediante la siguiente fórmula:
+
+<img src="https://github.com/PurpleWood-APM/Documentacion-Proyecto/assets/51938754/a78bd001-2a52-419a-8ddb-dab308d9800d" width ="350" heigth ="250">
+
+<img src="https://github.com/PurpleWood-APM/Documentacion-Proyecto/assets/51938754/11879b38-c919-46bf-9320-48fd357e2efc" width ="350" heigth ="250">
+
+El tiempo de ejecución real se calculo anteriormente para la disponibilidad. El tiempo de ciclo diseñado, se calcula con los tiempos de ciclo del VSM, teniendo en cuenta la cantidad de productos que se quiere producir. 
+
+<img src="https://github.com/PurpleWood-APM/Documentacion-Proyecto/assets/51938754/59e1248e-678a-45e9-86fe-df324c550820" width ="500" heigth ="400">
+
+El tiempo de ciclo real se obtiene de los datos de Tecnomatix, calculados anteriormente. 
+
+<img src="https://github.com/PurpleWood-APM/Documentacion-Proyecto/assets/51938754/3b3d60a6-3153-415b-8a5e-e8ecfe3ccfa0" width ="500" heigth ="400">
+ 
+Se obtiene una eeficiencia de desempeño de **88,89%**
+
+
+### Tasa de calidad
+
+Esta se calcula mediante la siguiente fórmula:
+
+<img src="https://github.com/PurpleWood-APM/Documentacion-Proyecto/assets/51938754/84905516-da27-4a25-ab73-cf08dca5c0d3" width ="500" heigth ="400">
+ 
+
+
+Se realiza la suposición de 10% de productos defectuosos, tomando de referencia el análisis de mejoramiento de una empresa de muebles en Bucaramanga, Colombia (http://tangara.uis.edu.co/biblioweb/tesis/2018/172938.pdf) y el porcentaje de productos defectuosos que se encuentran.
+
+![image](https://github.com/PurpleWood-APM/Documentacion-Proyecto/assets/51938754/8b51f750-2dc9-4cfb-8c68-8bf3926cfb20)
 
 
 
