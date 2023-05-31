@@ -1,4 +1,4 @@
-## Diagrama VSM
+# Diagrama VSM
 
 ### Cálculos generales: Demanda, Takt Time
 Se realizan los cálculos del tiempo disponible en la planta de producción, teniendo en cuenta la cantidad de turnos al día, días de trabajo, tiempos de descanso,
@@ -15,11 +15,14 @@ Se calcula la cantidad de tableros exactos para cada lote de producción al mes,
 
 ![NumeroTableros](https://user-images.githubusercontent.com/51938754/230692590-c8916630-6b21-40fe-86b9-e20f1e7cb020.png)
 
+## Pre-automatización
+
 ### Productos-Procesos
 
-Además, se genera la tabla de procesos necesarios para la producción de cada artículo. Con esto se tiene una clasificación adecuada de los productos, los cuáles comparten más del 70% de los procesos.
+Se genera la tabla de procesos necesarios para la producción de cada artículo. Con esto se tiene una clasificación adecuada de los productos, los cuáles comparten más del 70% de los procesos.
 
 ![produccto_vs_proceso](https://user-images.githubusercontent.com/51938754/226518361-1c0c5f2e-a1e2-4b46-80cf-7d6cd1823fff.PNG)
+
 
 ### Disponibilidad
 
