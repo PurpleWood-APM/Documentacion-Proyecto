@@ -84,6 +84,13 @@ Los datos para los cálculos son obtenidos de las siguientes referencias:
 * Robot: https://www.dempro.co/post/cada-cuanto-se-deben-hacer-los-mantenimientos-en-los-robots-kuka
 * Actuador neumático: https://www.distritec.com.ar/cuando-debo-realizar-el-mantenimiento-de-los-cilindros-neumaticos/#:~:text=Entre%20500%20y%203000%20km%20recorridos%20semanales%20es%20considerable%20realizar%20el%20mantenimiento.
 
+### Características para construcción dle diagrama
+
+Se presenta una tabla con los procesos e información necesaria de cada uno para construir el VSM:
+
+![image](https://github.com/PurpleWood-APM/Documentacion-Proyecto/assets/51938754/51de03e5-3050-4fb6-94a6-33d66c647f15)
+
+
 ### Diagrama VSM pos-automatización
 
 Con estos datos se procede a realizar el digrama VSM o Value Stream Mapping, contando con la información de la demanda, tiempos de los procesos previamente mostrados 
