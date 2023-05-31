@@ -64,5 +64,5 @@ Si se desea ver las animaciones  o las conexiones con ignition y su relación co
 
 [video SCADA y Conexiones](https://www.youtube.com/watch?v=R3Ken7L0liA)
 
-Si se quiere ver los archivos NX de la planta dirijase al repositorio a [Repositorio de ]() el repositorio para elementos pesados como diseños 3D. 
+Si se quiere ver los archivos NX de la planta dirijase al repositorio a [Repositorio de Diseño de producción](https://github.com/PurpleWood-APM/DisenoDeProduccion) el repositorio para elementos pesados como diseños 3D. 
  
